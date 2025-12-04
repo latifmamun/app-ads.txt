@@ -1,7 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta http-equiv="refresh" content="0; url=https://your-main-website.com">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name - Android & iOS Developer</title>
+  <meta name="description" content="Official developer website of Your Name. Download my apps on Google Play and App Store."/>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; margin:0; background:#f8f9fa; color:#333; line-height:1.6; }
+    header { background:#4285f4; color:white; text-align:center; padding:60px 20px; }
+    h1 { margin:0; font-size:2.8em; }
+    .subtitle { font-size:1.3em; opacity:0.9; margin-top:10px; }
+    .container { max-width:1000px; margin:40px auto; padding:0 20px; }
+    }
+    .apps { display:grid; grid-template-columns: repeat(auto-fit, minmax(300px,1fr)); gap:30px; margin-top:30px; }
+    .app-card { background:white; border-radius:12px; overflow:hidden; box-shadow:0 4px 15px rgba(0,0,0,0.1); text-align:center; padding:25px; transition:transform 0.3s; }
+    .app-card:hover { transform:translateY(-8px); }
+    .app-icon { width:100px; height:100px; border-radius:20px; object-fit:cover; }
+    .buttons { margin-top:20px; }
+    .btn { display:inline-block; margin:8px; padding:12px 24px; background:#34a853; color:white; text-decoration:none; border-radius:8px; font-weight:bold; }
+    .btn.apple { background:#000; }
+    footer { text-align:center; padding:40px; background:#333; color:white; margin-top:60px; }
+    @media (max-width:600px) { h1 { font-size:2.2em; } }
+  </style>
 </head>
-<body>Redirecting...</body>
+<body>
+
+  <header>
+    <h1>Your Name</h1>
+    <p class="subtitle">Android & iOS Developer</p>
+  </header>
+
+  <div class="container">
+    <h2 style="text-align:center;">My Apps</h2>
+
+    <div class="apps">
+
+      <!-- ADD NEW APPS HERE – JUST COPY THIS WHOLE BLOCK -->
+      <div class="app-card">
+        <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="App Icon" class="app-icon"/>
+        <h3>Cool Photo Editor</h3>
+        <p>Best photo editing app with filters, effects, and AI tools.</p>
+        <div class="buttons">
+          <a href="https://play.google.com/store/apps/details?id=com.yourcompany.photoeditor" class="btn">Google Play</a>
+          <a href="https://apps.apple.com/app/id1234567890" class="btn apple">App Store</a>
+        </div>
+      </div>
+      <!-- END OF ONE APP BLOCK -->
+
+      <div class="app-card">
+        <img src="https://via.placeholder.com/100" alt="App Icon" class="app-icon"/>
+        <h3>Habit Tracker Pro</h3>
+        <p>Build better habits and track your daily progress easily.</p>
+        <div class="buttons">
+          <a href="https://play.google.com/store/apps/details?id=com.yourcompany.habit" class="btn">Google Play</a>
+        </div>
+      </div>
+
+      <!-- Add more apps by copying the block above -->
+
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 Your Name • All Rights Reserved<br>
+    <a href="mailto:you@example.com" style="color:#aaa;">you@example.com</a></p>
+  </footer>
+
+</body>
 </html>
